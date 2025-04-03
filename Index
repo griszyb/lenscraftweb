@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LensCraft Studio – Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container logo-wrapper">
+      <a href="index.html" class="logo">
+        <img src="./logo.png" alt="LensCraft Studio Logo"
+        title="LensCraft Studio Logo / Home" />
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="bookings.html">Bookings</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>LensCraft Studio</h1>
+      <p>Capturing timeless moments through artistry and imagination.</p>
+      <a href="bookings.html" title="Book a Session" class="hero-btn">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- Second Hero Section -->
+<section class="hero hero-bottom">
+    <div class="hero-content">
+      <h1>Let Your Story Be Seen</h1>
+      <p>Crafted with vision. Captured with purpose.</p>
+      <a href="services.html" title="Explore Services" class="hero-btn">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- Featured Services -->
+  <section class="services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service-grid">
+        <div class="service-card">
+          <h3>Weddings</h3>
+          <p>Capture your special day with timeless and romantic imagery tailored to your love story.</p>
+        </div>
+        <div class="service-card">
+          <h3>Portraits</h3>
+          <p>Showcase your personality or brand with high-quality, artistic portrait sessions.</p>
+        </div>
+        <div class="service-card">
+          <h3>Commercial</h3>
+          <p>Creative visuals for campaigns, products, and promotional material.</p>
+        </div>
+      </div>
+      <div style="text-align: center; margin-top: 2rem;">
+        <a href="services.html" title="View All Services" style="text-decoration: underline; font-weight: bold;">View All Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book a Session CTA -->
+  <section class="about-section">
+    <div class="container" style="text-align: center;">
+      <h2>Ready to Book?</h2>
+      <p>We create memories that last a life time.</p>
+      <a href="bookings.html" title="Book a Session" style="display: inline-block; background: #111; color: #fff; padding: 1rem 2rem; border-radius: 4px; margin-top: 1rem; text-decoration: none;">Book a Session</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="about-section" style="text-align: center;">
+    <p>&copy; 2025 LensCraft Studio. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
